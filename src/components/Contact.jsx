@@ -1,6 +1,6 @@
 export default function Contact() {
   return (
-    <section className="mb-10">
+    <section id="contact" className="mb-10">
       <h2 className="text-2xl font-semibold mb-4">📢 Contact</h2>
       <p>Email : <a href="mailto:adrien.salicis@icloud.com" className="text-blue-600 underline">adrien.salicis@icloud.com</a></p>
       <p>Téléphone : 07 81 76 46 09</p>

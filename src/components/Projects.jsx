@@ -1,6 +1,6 @@
 export default function Projects() {
   return (
-    <section className="mb-10">
+    <section id="projects" className="mb-10">
       <h2 className="text-2xl font-semibold mb-4">📚 Projets</h2>
       <div className="space-y-4">
         <div>

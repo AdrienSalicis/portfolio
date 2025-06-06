@@ -1,6 +1,6 @@
 export default function Skills() {
   return (
-    <section className="mb-10">
+    <section id="skills" className="mb-10">
       <h2 className="text-2xl font-semibold mb-4">✨ Compétences Clés</h2>
       <ul className="list-disc list-inside space-y-1">
         <li>CAO : Catia, Creo, Fusion 360, TopSolid</li>
