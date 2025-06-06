@@ -7,12 +7,16 @@ import Contact from './components/Contact'
 
 export default function App() {
   return (
-    <div className="min-h-screen bg-white text-gray-800 p-4 md:p-10">
-      <Header />
-      <Skills />
-      <Projects />
-      <Education />
-      <Contact />
+    <div className="bg-white text-gray-800">
+      <Navbar />
+      <div className="p-4 md:p-10">
+        <Header />
+        <Skills />
+        <Projects />
+        <Education />
+        <Contact />
+      </div>
     </div>
   )
 }
+
