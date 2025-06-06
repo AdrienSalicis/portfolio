@@ -1,7 +1,7 @@
 export default function Contact() {
   return (
-    <section id="contact" className="mb-10">
-      <h2 className="text-2xl font-semibold mb-4">📢 Contact</h2>
+    <section id="contact" className="py-16 border-t border-gray-300">
+      <h2 className="text-3xl sm:text-4xl font-semibold text-center mb-8 border-b pb-2 border-gray-200">Contact</h2>
       <p>Email : <a href="mailto:adrien.salicis@icloud.com" className="text-blue-600 underline">adrien.salicis@icloud.com</a></p>
       <p>Téléphone : 07 81 76 46 09</p>
       <p>LinkedIn : <a href="https://www.linkedin.com/in/adrien-salicis" className="text-blue-600 underline">linkedin.com/in/adrien-salicis</a></p>

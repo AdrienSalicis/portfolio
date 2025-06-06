@@ -1,7 +1,7 @@
 export default function Projects() {
   return (
-    <section id="projects" className="mb-10">
-      <h2 className="text-2xl font-semibold mb-4">📚 Projets</h2>
+    <section id="projects" className="py-16 border-t border-gray-300">
+      <h2 className="text-3xl sm:text-4xl font-semibold text-center mb-8 border-b pb-2 border-gray-200">Projets</h2>
       <div className="space-y-4">
         <div>
           <h3 className="text-xl font-bold">WindDatas (2025)</h3>

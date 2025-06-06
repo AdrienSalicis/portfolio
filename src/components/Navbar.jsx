@@ -20,27 +20,30 @@ export default function Navbar() {
   }, []);
 
   return (
-    <nav className="sticky top-0 z-50 bg-white shadow-md px-4 py-3">
-      <ul className="flex flex-wrap justify-center gap-6 text-sm sm:text-base">
-        {sections.map((id) => (
-          <li key={id}>
-            <a
-              href={`#${id}`}
-              className={`font-medium transition ${
-                activeSection === id
-                  ? 'text-blue-600 underline underline-offset-4'
-                  : 'text-gray-700 hover:text-blue-500'
-              }`}
-            >
-              {id === 'header' ? 'Accueil' :
-               id === 'skills' ? 'Compétences' :
-               id === 'projects' ? 'Projets' :
-               id === 'education' ? 'Parcours' :
-               'Contact'}
-            </a>
-          </li>
-        ))}
-      </ul>
+    <nav className="sticky top-0 z-50 bg-white shadow-md py-3">
+      <div className="max-w-5xl mx-auto px-4">
+        <ul className="flex flex-wrap justify-center gap-6 text-sm sm:text-base">
+          {sections.map((id) => (
+            <li key={id}>
+              <a
+                href={`#${id}`}
+                onClick={() => setActiveSection(id)}
+                className={`font-medium transition ${
+                  activeSection === id
+                    ? 'text-blue-600 underline underline-offset-4'
+                    : 'text-gray-700 hover:text-blue-500'
+                }`}
+              >
+                {id === 'header' ? 'Accueil' :
+                 id === 'skills' ? 'Compétences' :
+                 id === 'projects' ? 'Projets' :
+                 id === 'education' ? 'Parcours' :
+                 'Contact'}
+              </a>
+            </li>
+          ))}
+        </ul>
+      </div>
     </nav>
   );
 }
