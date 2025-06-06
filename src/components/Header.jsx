@@ -1,29 +1,27 @@
-import { motion } from 'framer-motion';
+import { useTranslation } from 'react-i18next'
+import { motion } from 'framer-motion'
 
 export default function Header() {
-  return (
-    <section
-      id="header"
-      className="min-h-[90vh] flex flex-col justify-center items-center text-center bg-gradient-to-b from-white via-gray-50 to-white"
-    >
-      <motion.h1
-        className="text-4xl md:text-6xl font-bold mb-4"
-        initial={{ opacity: 0, y: -30 }}
-        animate={{ opacity: 1, y: 0 }}
-        transition={{ duration: 0.6 }}
-      >
-        Adrien Salicis
-      </motion.h1>
+  const { t } = useTranslation()
 
-      <motion.p
-        className="text-xl md:text-2xl text-gray-600 max-w-xl"
-        initial={{ opacity: 0, y: 10 }}
-        animate={{ opacity: 1, y: 0 }}
-        transition={{ duration: 0.8, delay: 0.2 }}
-      >
-        Ingénieur en Conception Mécanique, passionné par la transition écologique,
-        la conception responsable et les nouvelles mobilités.
-      </motion.p>
+  return (
+    <section id="header" className="relative w-full min-h-[90vh] overflow-hidden flex items-center justify-center">
+      <img src="/lac-header.jpg" alt="Lac de montagne" className="absolute top-0 left-0 w-full h-full object-cover" />
+      <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/40 to-transparent"></div>
+
+      <div className="relative z-10 text-white px-4 text-center max-w-4xl">
+        <motion.h1 className="text-4xl md:text-6xl font-bold mb-4">{t('header_title')}</motion.h1>
+        <motion.p className="text-lg md:text-2xl mb-8">{t('header_subtitle')}</motion.p>
+
+        <motion.div className="flex flex-col sm:flex-row gap-4 justify-center">
+          <a href="#projects" className="px-6 py-3 bg-blue-600 text-white rounded-xl">
+            {t('see_projects')}
+          </a>
+          <a href="/CV_Adrien_Salicis.pdf" download className="px-6 py-3 bg-white text-gray-900 rounded-xl">
+            {t('download_cv')}
+          </a>
+        </motion.div>
+      </div>
     </section>
-  );
+  )
 }
