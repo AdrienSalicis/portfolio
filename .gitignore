@@ -1,2 +1,30 @@
+# Dépendances Node.js
 node_modules/
+
+# Build de production
 dist/
+
+# Fichiers de log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Fichiers système / éditeurs
+.DS_Store
+Thumbs.db
+
+# VS Code
+.vscode/
+
+# Environnements
+.env
+.env.local
+.env.*.local
+
+# Fichiers temporaires
+*.log
+*.tmp
+*.swp
+
+# GitHub Pages cache
+.gh-pages/
