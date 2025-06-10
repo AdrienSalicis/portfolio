@@ -13,6 +13,13 @@ export default function Education() {
       link: 'https://www.ciel-et-terre.net/fr/'
     },
     {
+      year: '2024–2025',
+      title: t('edu_uvigo_title'),
+      location: 'Vigo, Espagne',
+      description: t('edu_uvigo_desc'),
+      link: 'https://www.uvigo.gal/'
+    },
+    {
       year: '2024',
       title: t('edu_getec_title'),
       location: 'Arras',
@@ -26,13 +33,7 @@ export default function Education() {
       description: t('edu_thales_desc'),
       link: 'https://www.thalesgroup.com'
     },
-    {
-      year: '2024–2025',
-      title: t('edu_uvigo_title'),
-      location: 'Vigo, Espagne',
-      description: t('edu_uvigo_desc'),
-      link: 'https://www.uvigo.gal/'
-    },
+
     {
       year: '2022–2025',
       title: t('edu_polytech_title'),
@@ -43,7 +44,7 @@ export default function Education() {
   ]
 
   return (
-    <section id="education" className="py-16 px-4 border-t border-gray-300 bg-white">
+    <section id="education" className="py-16 px-4 border-t border-gray-300 bg-gray-50">
       <div className="max-w-3xl mx-auto">
         <h2 className="text-3xl sm:text-4xl font-bold text-center mb-12">{t('education_title')}</h2>
         <div className="space-y-10">
