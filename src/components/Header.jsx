@@ -6,11 +6,7 @@ export default function Header() {
 
   return (
     <section id="header" className="relative w-full min-h-[90vh] overflow-hidden flex items-center justify-center">
-<<<<<<< HEAD
-      <img src="/public/lac-header.jpg" alt="Photo de profil" />
-=======
-      <img src="/portfolio/public/lac-header.jpg" alt="background" className="absolute top-0 left-0 w-full h-full object-cover" />
->>>>>>> 2e612fc7e023f446d936953efdc3e195db914315
+      <img src="/lac-header.jpg" alt="background" className="absolute top-0 left-0 w-full h-full object-cover" />
       <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/40 to-transparent"></div>
 
       <div className="relative z-10 text-white px-4 text-center max-w-4xl">
