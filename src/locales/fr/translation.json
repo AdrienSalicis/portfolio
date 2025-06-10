@@ -1,16 +1,26 @@
 {
+  "navbar_accueil": "Accueil",
+  "navbar_competences": "Compétences",
+  "navbar_projets": "Projets",
+  "navbar_parcours": "Parcours",
+  "navbar_contact": "Contact",
+
   "header_title": "Adrien Salicis",
   "header_subtitle": "Ingénieur en Conception Mécanique, passionné par la transition écologique, la conception responsable et les nouvelles mobilités.",
   "see_projects": "Voir mes projets",
   "download_cv": "Télécharger mon CV",
-  "about_title": "À propos",
-  "about_paragraph1": "Je suis un jeune ingénieur passionné par la conception mécanique, animé par une conviction : l’ingénierie peut — et doit — contribuer activement à la transition écologique. Mon parcours m’a amené à explorer à la fois l’industrialisation, la conception responsable, et les outils numériques.",
-  "about_paragraph2": "Je suis autant à l’aise sur Catia que sur un établi, et j’aime naviguer entre modélisation, prototypage et codage. Mon but : concevoir des produits qui ont du sens. Ce portfolio reflète cette vision.",
+
+  "about": {
+    "title": "À propos",
+    "description": "Je suis Adrien Salicis, ingénieur en conception mécanique diplômé de Polytech Lille. Je possède une solide expérience en conception mécanique, fabrication, méthodes industrielles et modélisation numérique, acquise à travers mes stages chez Ciel et Terre, Getec et Thales. Mes projets incluent la conception d’un vélomobile low-tech, d’un bras robotisé et la mise au point de systèmes de manutention innovants. Je suis passionné par l’outdoor, les sports, et très engagé dans la transition écologique et technologique."
+  },
+
   "skills_title": "Compétences",
   "skills_cad": "Conception / CAO",
   "skills_simulation": "Simulation / Analyse",
   "skills_prototyping": "Prototypage / Fabrication",
   "skills_programming": "Programmation",
+
   "projects_title": "Projets",
   "project_winddatas_title": "WindDatas",
   "project_winddatas_desc": "Projet Python développé dans le cadre de mon stage de fin d’études chez Ciel & Terre. Il permet de collecter, traiter et comparer des données de vent provenant de différentes sources (NOAA, Meteostat, OpenMeteo).",
@@ -22,6 +32,7 @@
   "project_velomobile_desc": "Projet de conception mécanique dans une démarche low-tech. Réalisation d’un tricycle tandem couché modélisé sous Catia.",
   "project_lowtech_workshops_title": "Animation d’ateliers Low-Tech",
   "project_lowtech_workshops_desc": "Co-animation d’ateliers d’introduction à la démarche low-tech auprès d’un public large.",
+
   "education_title": "Parcours",
   "edu_cielterre_title": "Stage R&D – Ciel & Terre",
   "edu_cielterre_desc": "Étude du dimensionnement de centrales solaires flottantes. Développement d’outils internes.",
@@ -33,12 +44,12 @@
   "edu_uvigo_desc": "Design industriel, EF, Moteurs thermiques, technologies laser.",
   "edu_polytech_title": "Ingénieur Mécanique – Polytech Lille",
   "edu_polytech_desc": "Conception, CFAO, Simulation RDM, Transferts thermiques, Éco-conception.",
+
   "contact_title": "Contact",
   "contact_email": "Email",
   "contact_phone": "Téléphone",
-  "navbar_accueil": "Accueil",
-  "navbar_competences": "Compétences",
-  "navbar_projets": "Projets",
-  "navbar_parcours": "Parcours",
-  "navbar_contact": "Contact"
+
+  "footer": {
+    "madeBy": "Site développé par Adrien Salicis"
+  }
 }
