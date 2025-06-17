@@ -1,0 +1,136 @@
+/* Import de la police Inter */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Inter', sans-serif;
+  line-height: 1.6;
+  background-color: #f9f9f9;
+  color: #1c1c1c;
+  text-align: justify;
+}
+
+/* Conteneur général */
+.container {
+  max-width: 1000px;
+  margin: auto;
+  padding: 2rem;
+}
+
+/* Navigation sticky */
+.navbar {
+  position: sticky;
+  top: 0;
+  background-color: #ffffffee;
+  padding: 1rem;
+  border-bottom: 1px solid #ddd;
+  z-index: 1000;
+  backdrop-filter: blur(5px);
+}
+.navbar ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  gap: 2rem;
+  margin: 0;
+  padding: 0;
+}
+.navbar a {
+  text-decoration: none;
+  color: #1c1c1c;
+  font-weight: 600;
+}
+.navbar a:hover {
+  color: #0077cc;
+}
+
+/* Section héros */
+.hero-section {
+  position: relative;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url('../assets/lac-header.jpg');
+  background-size: cover;
+  background-position: center;
+  color: white;
+  text-align: center;
+  padding: 2rem;
+}
+.hero-content {
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 2rem;
+  border-radius: 12px;
+}
+.profile-pic {
+  width: 150px;
+  border-radius: 100px;
+  border: 3px solid white;
+  margin-bottom: 1rem;
+}
+
+/* Sections alternées */
+.section {
+  padding: 4rem 0;
+}
+.section.light {
+  background-color: #ffffff;
+  color: #1c1c1c;
+}
+.section.dark {
+  background-color: #1c1c1c;
+  color: #f0f0f0;
+}
+
+/* Titres */
+h1, h2 {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+/* Pied de page */
+.footer {
+  background-color: #1c1c1c;
+  color: white;
+  padding: 2rem 0;
+  text-align: center;
+}
+.footer a {
+  color: #cccccc;
+  text-decoration: none;
+}
+.footer a:hover {
+  color: white;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .navbar ul {
+    flex-direction: column;
+    gap: 1rem;
+  }
+  .container {
+    padding: 1rem;
+  }
+  .hero-section {
+    height: auto;
+    padding: 4rem 1rem;
+  }
+}
+
+.fade-in {
+  opacity: 0;
+  transform: translateY(30px);
+  transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+}
+.fade-in.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.profile-pic {
+  transition: transform 0.3s ease;
+}
+.profile-pic:hover {
+  transform: scale(1.05);
+}
