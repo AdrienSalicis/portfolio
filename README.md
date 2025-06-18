@@ -2,16 +2,17 @@
 
 Bienvenue sur mon portfolio personnel, développé pour présenter mes compétences, projets et expériences en tant qu'ingénieur en conception mécanique.
 
-Ce site a été entièrement conçu en HTML, CSS et JavaScript, puis déployé avec GitHub Pages.
+Ce site a été entièrement conçu en **HTML**, **CSS** et **JavaScript**, puis déployé via **GitHub Pages**.
 
 ## ✨ Aperçu
 
-🔗 [Voir le portfolio en ligne](https://adriensalicis.github.io/portfolio/)
+🔗 [Voir le portfolio en ligne](https://adriensalicis.github.io/portfolio/)  
+📄 [Télécharger mon CV](https://adriensalicis.github.io/portfolio/cv_salicis_adrien.pdf)
 
 ## 🧰 Technologies utilisées
 
 - HTML5 / CSS3
-- JavaScript vanilla (animations)
+- JavaScript vanilla (animations, scroll actif, fade-in)
 - Git & GitHub
 - Déploiement via GitHub Pages
 
@@ -26,26 +27,30 @@ portfolio/
 │   └── main.js
 ├── assets/
 │   ├── profile.jpg
-│   └── lac-header.jpg
+│   ├── lac-header.jpg
+│   ├── [logos d'école / entreprises].jpg
 └── cv_salicis_adrien.pdf
 ```
 
 ## 🚀 Fonctionnalités
 
-- Section héro animée (machine à écrire)
-- Apparition fluide des sections au scroll
+- Section héro animée (fade-in + scroll tracking)
+- Apparition fluide des sections
 - Responsive design mobile
-- Photo de profil animée
-- Téléchargement du CV (à venir)
+- Photo de profil avec effet hover
+- Formulaire de contact
+- Liens vers LinkedIn et GitHub
+- **Téléchargement direct du CV**
 
-## 🧪 En local
+## 🧪 Test local
 
-Tu peux tester ce projet localement avec [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) sous VS Code :
+Pour tester ce projet localement avec VS Code et [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) :
 
-1. Cloner le repo :  
-   `git clone https://github.com/adriensalicis/portfolio.git`
-2. Ouvrir dans VS Code
-3. Clic droit sur `index.html` → **"Open with Live Server"**
+```bash
+git clone https://github.com/adriensalicis/portfolio.git
+cd portfolio
+# Puis ouvrir index.html avec Live Server
+```
 
 ---
 
